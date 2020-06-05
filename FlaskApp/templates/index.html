@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compagnone, Querales & Alvarado</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/css/uikit.min.css" />
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.6/dist/js/uikit-icons.min.js"></script>
+        <link rel="stylesheet" href="../static/css/styles.css"/>
+    </head>
+    <body>
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+            <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980; height: 100px">
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="#"><img src="../static/vendor/img/logo3.png" style="width: 170px; padding: 10px;"></a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="#LaFirma" uk-scroll>La Firma</a></li>
+                        <li><a href="#AreaPractica" uk-scroll>ÁREAS DE PRÁCTICA</a></li>
+                        <li><a href="#Abogados" uk-scroll>ABOGADOS</a></li>
+                        <li><a href="#">PUBLICACIONES</a></li>
+                        <li><a href="#Contacto" uk-scroll>CONTACTO</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+            
+        <div class="uk-section uk-section-secondary uk-light" id="LaFirma" style="height: 90vh">
+            
+            <div id="test-filter" class="uk-height-large uk-background-cover uk-overflow-hidden uk-flex uk-flex-top" uk-parallax="sepia: 400;" style="background-image: url('../static/vendor/img/Caracas_abogados.jpg');     max-height: 40vh; margin-top: calc(-10vh)">
+                <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="target: #test-    filter; blur: 0,20;"></h1>
+            </div>
+        
+            <div class="uk-section uk-section-primary uk-light seccion-1" id="seccion" style="height: 60vh">
+                <div class="uk-container">
+                    <h1 class="uk-heading-line" id="titulo1"><span>La Firma</span></h1>
+                    <div class="uk-grid-match uk-child-width-1@m " uk-grid>
+                        <div>
+                            <p class="text" id="LaFirma">Compagnone, Querales & Alvarado es un escritorio jurídico con más de 45 años de experiencia, fundado en la ciudad de Caracas en el año de 1975 por la Dra. Maria Compagnone Tringali. Desde sus inicios la Firma se destacó por sus servicios de asesoría civil y corporativa a grandes y pequeñas empresas del sector construcción e inmobiliario.
+
+                            Desde el año 2005, la Firma ha venido en crecimiento, diversificado sus áreas de experticia ofreciendo asesoría en propiedad intelectual, marítima, corporativa, financiera y laboral.
+
+                            Actualmente, Compagnone, Querales & Alvarado cuenta con un equipo multidisciplinario de abogados, contadores y litigantes. Contamos con un equipo de profesionales del Derecho a dedicación exclusiva, de reconocida trayectoria y experiencia. Profundamente comprometidos con sus proyectos, cuyo objetivo fundamental es brindar soluciones dentro de un marco de legalidad, siempre ceñidos a los más altos principios de ética profesional. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+            
+        <div class="uk-section uk-section-secondary uk-light boxContent" id="AreaPractica" style="height: 100vh">
+            <div class="uk-container" id="containerAP" style="text-align: end; padding: 2em"; margin: auto;>
+            
+            <h1 class="uk-heading-line uk-text-right" id="titulo2"><span>Áreas Practicas</span></h1>
+            
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: false" >
+				
+				
+				<div id="slideshow">
+
+					<div class="uk-margin-small-top" >
+						<ul class="uk-slideshow-nav uk-flex-center" uk-tab>
+							<li class="uk-active"><a href="#" id="Hola" uk-slidenav-next uk-slideshow-item="0"><span class="TxT_AP"> Civil </span></a></li>
+							<li><a href="#" class="" id="mercantil_slide" uk-slidenav-next uk-slideshow-item="1"><span class="TxT_AP"> Mercantil </span></a></li>
+							<li><a href="#" class="" id="inmobilario_slide" uk-slidenav-next uk-slideshow-item="2"><span class="TxT_AP"> Inmobiliario </span></a></li>
+							<li><a href="#" class="" id="laboral_slide" uk-slidenav-next uk-slideshow-item="3"><span class="TxT_AP"> Laboral </span></a></li>
+							<li><a href="#" class="" id="maritimo_slide" uk-slidenav-next uk-slideshow-item="4"><span class="TxT_AP"> Marítimo </span></a></li>
+						</ul>
+					</div>
+					
+
+
+
+				<ul class="uk-slideshow-items"  uk-height-viewport="offset-top: true; offset-bottom: 55">
+				 
+					<li uk-slideshow-item="0" class="uk-active uk-transition-active">
+						<img src="../static/vendor/img/civil.jpg" alt="" uk-cover>
+						<div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+							<h3 class="uk-margin-remove title-area">Civil</h3>
+                            <hr>
+							<p class="uk-margin-remove texto_slide text-area">Manejo legal de asuntos de naturaleza civil, referentes a derechos inherentes a las personas, familia y patrimoniales, elaboración de todo tipo de contratos y asistencia en la solución de controversias, derivadas de esta rama.</p>
+						</div>
+					</li>
+
+					<li uk-slideshow-item="1"> 
+						<img src="../static/vendor/img/mercantil.jpg" alt="" uk-cover>
+						<div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+							<h3 class="uk-margin-remove title-area">Mercantil</h3>
+                            <hr>
+							<p class="uk-margin-remove texto_slide text-area">Asesoría legal en el ejercicio de actividades mercantiles o profesionales, de clientes domiciliados en Venezuela y en el extranjero. Asistencia en la planificación y elaboración de estructuras corporativas, adquisiciones y fusiones, franquicias y propiedad intelectual.</p>
+						</div>
+					</li>
+
+					<li uk-slideshow-item="2"> 
+						<img src="../static/vendor/img/inmobiliario.jpg" alt="" uk-cover>
+						<div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+							<h3 class="uk-margin-remove title-area">Inmobiliario</h3>
+                            <hr>
+							<p class="uk-margin-remove texto_slide text-area">Asistencia en la planificación, desarrollo y ejecución de proyectos de obras civiles e industriales; Elaboración de contratos de obra, suministro, compra venta, arrendamiento, condominio, Representación en sede administrativa y judicial frente a todo tipo de controversia que se derive de esta actividad.</p>
+						</div>
+					</li>
+
+					<li uk-slideshow-item="3">
+						<img src="../static/vendor/img/laboral.jpg" alt="" uk-cover>
+						<div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+							<h3 class="uk-margin-remove title-area">Laboral</h3>
+                            <hr>
+							<p class="uk-margin-remove texto_slide text-area">Servicios de asistencia laboral, en materia de recursos humanos, negociación y manejo de conflictos y contrataciones colectivas, elaboración de contratos, accidentes laborales y representación  ante órganos administrativos y judiciales del trabajo.</p>
+						</div>
+					</li>
+
+					<li uk-slideshow-item="4">
+						<img src="../static/vendor/img/maritimo.jpg" alt="" uk-cover>
+						<div class="uk-overlay uk-overlay-primary uk-position-right uk-text-center uk-transition-slide-right uk-width-medium">
+							<h3 class="uk-margin-remove title-area">Marítimo</h3>
+                            <hr>
+							<p class="uk-margin-remove texto_slide text-area">Manejo de asuntos marítimos, portuarios y negocios internacionales, comercialización de naves, contratos de utilización del buque, accidentes en la navegación, procedimientos administrativos ante autoridades acuáticas y demás requerimientos en materia marítima.</p>
+						</div>
+					</li>
+				</ul>
+				</div>
+				
+			</div>
+
+        </div>
+        </div>
+                       
+        <div class="uk-section uk-section-secondary uk-light seccion-white" id="Abogados" style="height: 100vh">
+            <div class="uk-container abogados" style="height: 90vh; margin: auto; margin-top: calc(7vh);">
+        
+        
+            <h1 class="uk-heading-line" id="titulo1"><span>Abogados</span></h1>
+
+            <div class="uk-child-width-1@s" uk-grid>
+                <div class="body-abogados">
+                    <div uk-grid>
+                        <div class="uk-width-auto@m">
+                            <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
+                                <li><a href="#"><img src="../static/vendor/img/perfil.jpg" width="150px"></a></li>
+                                <li><a href="#"><img src="../static/vendor/img/perfil.jpg" width="150px"></a></li>
+                                <li><a href="#"><img src="../static/vendor/img/perfil.jpg" width="150px"></a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-width-expand@m">
+                            <ul id="component-tab-left" class="uk-switcher">
+                                <li>
+                                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                                            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                                                <img src="../static/vendor/img/perfil.jpg" alt="" uk-cover>
+                                                <canvas width="600" height="400"></canvas>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card-body">
+                                                    <h3 class="uk-card-title abogados-card">María Compagnone Tringali.</h3>
+                                                    <hr>
+                                                    <p>Abogada egresada de la Universidad Central de Venezuela (--), con estudios de especialización en España e Italia, en Derecho Administrativo e Inmobiliario. Socia Fundadora de la firma Compagnone, Querales & Alvarado.</p>
+                                                    <p>Centra su actividad profesional en litigios de naturaleza civil y mercantil, así como en la asesoría a empresas del sector público y privado en la planificación, administración y ejecución de proyectos de desarrollos inmobiliarios y urbanísticos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                                            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                                                <img src="../static/vendor/img/perfil.jpg" alt="" uk-cover>
+                                                <canvas width="600" height="400"></canvas>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card-body">
+                                                    <h3 class="uk-card-title abogados-card">Sulma Alvarado Elmor.</h3>
+                                                    <hr>
+                                                    <p>Abogada egresada de la Universidad Santa María (1975), con especialización en Derecho Procesal Civil, miembro de la firma Compagnone, Querales & Alvarado desde el año 1988, con más de 40 años en el ejercicio profesional, habiendo participado en más de cinco mil asuntos contenciosos de naturaleza civil, laboral y mercantil.</p>
+                                                    <p>Centra su actividad profesional en litigios de naturaleza civil, mercantil y laboral.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                                            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                                                <img src="../static/vendor/img/perfil.jpg" alt="" uk-cover>
+                                                <canvas width="600" height="400"></canvas>
+                                            </div>
+                                            <div>
+                                                <div class="uk-card-body">
+                                                    <h3 class="uk-card-title abogados-card">Juancarlos Eduardo Querales Compagnone.</h3>
+                                                    <p>Abogado egresado de la Universidad Central de Venezuela (2010), con especializaciones en Derecho Marítimo y Derecho Internacional Económico. Miembro de la firma Compagnone, Querales & Alvarado desde el año 2010. Miembro titular de la Asociación Venezolana de Derecho Marítimo 2016. Miembro titular del Instituto Iberoamericano de Derecho Marítimo 2017.</p>
+                                                    <p>Centra su actividad profesional en asesoría en materia civil, mercantil y marítima.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+            
+        
+        <div class="uk-section uk-section-secondary uk-light" id="Contacto" style="height: 100vh">
+        <div class="uk-container" style="margin-top: calc(10vh);">
+
+            <div class="uk-container uk-height-large  uk-light section4 " id="Contacto_box" uk-scrollspy-class="uk-animation-slide-bottom">
+			<h2 class="uk-heading-line uk-text-center"><span>Contacto</span></h2>
+			<div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+				<div>
+				  <p style="text-align: left;">Esquinas de Coliseo a Peinero, Edificio Centro Ejecutivo, piso 6, oficinas 62 y 63. La Hoyada, Caracas – Venezuela.</p>
+				  <p style="text-align: left;">Teléfonos: (0212) 541 7813 / (0212) 545 8313</p>
+				  <hr>
+				  <div class="uk-margin" >
+  
+					<div class="uk-inline" style="width: 100%;">
+						<span class="uk-form-icon" uk-icon="icon: user"></span>
+						<input class="uk-input" type="text" placeholder="Nombre y Apellido">
+					</div>
+					<div class="uk-inline" style="width: 100%; margin-top: 10px;">
+					  <span class="uk-form-icon" uk-icon="icon: mail"></span>
+					  <input class="uk-input" type="text" placeholder="Email">
+					</div>
+  
+					<div class="uk-margin">
+					  <textarea class="uk-textarea" rows="3" placeholder="Textarea"></textarea>
+				  </div>
+				  <button class="uk-button uk-button-secondary">Enviar</button>
+  
+				  
+				  </div>
+				  
+				</div>
+				<div>
+				  <!--The div element for the map -->
+				  <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.9679999851674!2d-66.91377958466664!3d10.503186567048331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDMwJzExLjUiTiA2NsKwNTQnNDEuNyJX!5e0!3m2!1sen!2sve!4v1591372720213!5m2!1sen!2sve"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+
+			<hr>
+			
+			
+			
+			<div class="uk-margin uk-text-center">
+				<div class="uk-inline-block uk-width-large">
+					<p style="text-align: center; font-size: 13px">• Todos los derechos reservados 2020 • Jose A Cordero</p>
+			
+				</div>
+			</div>
+			
+			
+			
+	
+        </div>
+
+        </div>
+        </div>
+         
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="../static/dist/uikit.min.js"></script>
+        <script src="../static/dist/uikit-icons.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2qdJ4AHq99jBABZYoxg1CUsHB6yGbg-k&callback=initMap"></script>
+
+        <script>
+            // Initialize and add the map
+            function initMap() {
+                // The location of Uluru
+                var uluru = {lat: 10.5031813, lng: -66.9115909};
+                // The map, centered at Uluru
+                var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 17, center: uluru});
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({position: uluru, map: map});
+            }
+</script>
+       
+        
+
+    </body>
+</html>

@@ -1,0 +1,140 @@
+
+            body::-webkit-scrollbar-track
+            {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+                border-radius: 10px;
+                background-color: #FFF;
+            }
+
+            body::-webkit-scrollbar
+            {
+                width: 10px;
+                background-color: #FFF;
+            }
+
+            body::-webkit-scrollbar-thumb
+            {
+                border-radius: 10px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+                background-color: #5c483f;
+            }
+
+            .uk-card-primary.uk-card-body .uk-heading-line>::after, .uk-card-primary.uk-card-body .uk-heading-line>::before, .uk-card-primary>:not([class*=uk-card-media]) .uk-heading-line>::after, .uk-card-primary>:not([class*=uk-card-media]) .uk-heading-line>::before, .uk-card-secondary.uk-card-body .uk-heading-line>::after, .uk-card-secondary.uk-card-body .uk-heading-line>::before, .uk-card-secondary>:not([class*=uk-card-media]) .uk-heading-line>::after, .uk-card-secondary>:not([class*=uk-card-media]) .uk-heading-line>::before, .uk-light .uk-heading-line>::after, .uk-light .uk-heading-line>::before, .uk-offcanvas-bar .uk-heading-line>::after, .uk-offcanvas-bar .uk-heading-line>::before, .uk-overlay-primary .uk-heading-line>::after, .uk-overlay-primary .uk-heading-line>::before, .uk-section-primary:not(.uk-preserve-color) .uk-heading-line>::after, .uk-section-primary:not(.uk-preserve-color) .uk-heading-line>::before, .uk-section-secondary:not(.uk-preserve-color) .uk-heading-line>::after, .uk-section-secondary:not(.uk-preserve-color) .uk-heading-line>::before, .uk-tile-primary:not(.uk-preserve-color) .uk-heading-line>::after, .uk-tile-primary:not(.uk-preserve-color) .uk-heading-line>::before, .uk-tile-secondary:not(.uk-preserve-color) .uk-heading-line>::after, .uk-tile-secondary:not(.uk-preserve-color) .uk-heading-line>::before {
+                    border-bottom-color: #d2a38563 !important;
+                }
+            .uk-navbar-nav>li>a {
+                color: #0b0b09;
+                text-transform: uppercase;
+                transition: .1s ease-in-out;
+                transition-property: color,background-color;
+                line-height: 8;
+            }
+
+            .nav{
+                background: #ccc;
+                display: flex;
+                position: fixed;
+                width: 100%;
+                height: 200px!important;
+            }
+
+            #senccion{
+                height: 300px !important;    
+            }
+            
+            .text{
+                text-align: justify;
+            }
+            
+            .uk-slideshow-items{
+                height: calc(40vh);
+            }
+            
+            #slideshow{
+                margin-top: 5vh!important;
+            }
+            
+/*
+            .uk-tab-left, .uk-tab-right {
+                flex-direction: row !important;
+                margin-left: 0;
+                width: 250px !important;
+            }
+*/
+            
+            .abogados{
+                margin-top: -20vh;
+            }
+            
+            .body-abogados{
+                margin-top: 5vh;
+            }
+            
+            .seccion-1{
+                height: height: 60vh;
+                background: #f9f9f9 !important;
+            }
+            
+            .seccion-white{
+                background: #f9f9f9 !important;
+                height: 100vh;
+            }
+            
+            #titulo1{
+                color: #5c494d;
+                font-weight: 400;
+                line-height: 1.4;
+            }
+            
+            #LaFirma{
+                color: #6b6b6b;
+            }
+            
+            #titulo2{
+                color: #d69e79;
+                font-weight: 400;
+            }
+            
+            
+            .uk-card-primary.uk-card-body .uk-tab::before, .uk-card-primary>:not([class*=uk-card-media]) .uk-tab::before, .uk-card-secondary.uk-card-body .uk-tab::before, .uk-card-secondary>:not([class*=uk-card-media]) .uk-tab::before, .uk-light .uk-tab::before, .uk-offcanvas-bar .uk-tab::before, .uk-overlay-primary .uk-tab::before, .uk-section-primary:not(.uk-preserve-color) .uk-tab::before, .uk-section-secondary:not(.uk-preserve-color) .uk-tab::before, .uk-tile-primary:not(.uk-preserve-color) .uk-tab::before, .uk-tile-secondary:not(.uk-preserve-color) .uk-tab::before {
+                border-color: rgba(255, 255, 255, 0.02);
+            }
+            
+            .title-area{
+                text-align: left!important;
+            }
+            
+            .text-area{
+                text-align: initial;
+                font-size: 0.8em;
+            }
+            
+            .abogados-card{
+                color: #96735c !important;
+                font-size: 1.5em !important;
+                line-height: 1 !important;
+                font-weight: 500 !important;
+            }
+            
+            .uk-navbar-nav>li>a {
+                color: #5c494d !important;
+                text-transform: uppercase;
+                transition: .1s ease-in-out;
+                transition-property: color,background-color;
+                line-height: 8;
+                font-weight: 600;
+            }
+            
+            .maps{
+                width: 100% !important;
+                height: 100% !important;
+            }
+            
+            #containerAP{
+                margin-top: calc(5vh);
+            }
+            
+            .boxContent{
+                height: 100vh !important;
+                margin-top: calc(10vh) !important;
+            }
