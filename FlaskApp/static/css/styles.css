@@ -46,8 +46,14 @@
                 text-align: justify;
             }
             
-            .uk-slideshow-items{
+            /* .uk-slideshow-items{
                 height: calc(40vh);
+            } */
+
+            .uk-slideshow-items{
+                min-height: calc(45vh);
+                max-width: calc(100vh);
+                margin: auto;
             }
             
             #slideshow{
@@ -105,8 +111,8 @@
             }
             
             .text-area{
-                text-align: initial;
-                font-size: 0.8em;
+                text-align: justify;
+                font-size: 1em;
             }
             
             .abogados-card{

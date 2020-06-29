@@ -7,5 +7,10 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route("/publicaciones")
+def publicaciones():
+    return render_template("publicaciones.html")
+
 if __name__ == "__main__":
     app.run()
+
